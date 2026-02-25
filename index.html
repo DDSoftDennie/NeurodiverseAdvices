@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Evidence-based advice on neurodiversity — for supporters, carers, and neurodiverse individuals themselves." />
+  <title>NeurodiverseAdvices — Evidence-Based Guidance</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== HEADER ===== -->
+  <header role="banner">
+    <div class="header-content">
+      <h1>🧠 Neurodiverse<span class="accent">Advices</span></h1>
+      <p class="subtitle">
+        Evidence-based guidance for neurodiverse individuals and the people who support them.
+      </p>
+
+      <!-- Tab Navigation -->
+      <nav class="nav-tabs" aria-label="Filter by category" role="tablist">
+        <button class="tab-btn active" data-tab="all" role="tab" aria-selected="true">
+          🌐 All Topics
+        </button>
+        <button class="tab-btn" data-tab="supporters" role="tab" aria-selected="false">
+          🤝 For Supporters
+        </button>
+        <button class="tab-btn" data-tab="neurodiverse" role="tab" aria-selected="false">
+          🌟 For Neurodiverse Individuals
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main id="main-content">
+
+    <!-- Stats Banner -->
+    <div class="stats-banner" aria-label="Key neurodiversity statistics">
+      <div class="stat-card">
+        <div class="stat-number">15–20%</div>
+        <div class="stat-label">of the world population is neurodivergent</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">1 in 36</div>
+        <div class="stat-label">children in the US are on the autism spectrum (CDC, 2023)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">1 in 7</div>
+        <div class="stat-label">people have ADHD, dyslexia, or another learning difference</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">70%</div>
+        <div class="stat-label">of autistic adults are unemployed or underemployed</div>
+      </div>
+    </div>
+
+    <!-- Info Banner -->
+    <div class="info-banner" role="note">
+      <span class="info-icon" aria-hidden="true">💡</span>
+      <div>
+        <h3>What is Neurodiversity?</h3>
+        <p>
+          Neurodiversity refers to the natural variation in human brain function and cognitive traits.
+          It includes autism, ADHD, dyslexia, dyspraxia, dyscalculia, Tourette syndrome, and more.
+          These are not deficits — they are different ways of experiencing and interacting with the world.
+        </p>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="search-container" role="search">
+      <label for="search-input">Search advice topics</label>
+      <div class="search-input-wrapper">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input
+          type="search"
+          id="search-input"
+          placeholder="e.g. sensory, communication, workplace, ADHD…"
+          autocomplete="off"
+          aria-label="Search advice topics"
+        />
+        <button class="search-clear" aria-label="Clear search" title="Clear search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- No results message -->
+    <div id="no-results" role="status" aria-live="polite">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        <line x1="8" y1="11" x2="14" y2="11"/>
+      </svg>
+      <p><strong>No results found.</strong> Try a different keyword.</p>
+    </div>
+
+    <!-- =============================================================== -->
+    <!-- SECTION 1 — FOR SUPPORTERS                                       -->
+    <!-- =============================================================== -->
+    <section class="category-section" data-category="supporters" aria-labelledby="supporters-heading">
+
+      <div class="category-header">
+        <div class="category-icon" aria-hidden="true">🤝</div>
+        <div class="category-title-block">
+          <h2 id="supporters-heading">For Supporters, Carers &amp; Co-workers</h2>
+          <p>Practical, research-backed guidance for everyone who lives or works alongside a neurodiverse person.</p>
+        </div>
+      </div>
+
+      <div class="accordion" role="list">
+
+        <!-- 1 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-s1" id="trigger-s1">
+            <span class="accordion-icon" aria-hidden="true">💬</span>
+            <span class="accordion-trigger-text">Communication: How to talk and listen effectively</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-s1" role="region" aria-labelledby="trigger-s1">
+            <p class="advice-intro">Research shows that clear, direct communication dramatically reduces anxiety and misunderstandings for autistic and ADHD individuals.</p>
+            <ul class="advice-list">
+              <li>Use clear, literal language and avoid idioms, sarcasm, or ambiguous phrases unless you explain them.</li>
+              <li>Give one instruction at a time; chunk larger tasks into numbered steps.</li>
+              <li>Allow processing time — a pause after speaking does not mean they are not listening.</li>
+              <li>Prefer written communication (email, chat) for complex information so they can re-read it.</li>
+              <li>Ask for a preferred communication style early; never assume.</li>
+              <li>Avoid interrupting mid-thought, especially during "info-dumps" which are a natural sharing style for many autistic people.</li>
+              <li>Confirm understanding by asking them to summarise back in their own words — not "did you understand?"</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> The "double empathy problem" (Milton, 2012) shows that communication difficulties are mutual between autistic and non-autistic people — both parties benefit from adapting.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-s2" id="trigger-s2">
+            <span class="accordion-icon" aria-hidden="true">🏠</span>
+            <span class="accordion-trigger-text">Creating a sensory-friendly environment at home or work</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-s2" role="region" aria-labelledby="trigger-s2">
+            <p class="advice-intro">Sensory processing differences affect up to 90% of autistic individuals and are common in ADHD. Environmental adjustments have a significant impact on wellbeing and performance.</p>
+            <ul class="advice-list">
+              <li>Reduce fluorescent or flickering lighting; offer natural or warm-toned alternatives.</li>
+              <li>Minimise background noise — provide noise-cancelling headphones or a quiet workspace.</li>
+              <li>Avoid strong scents (perfumes, cleaning products) in shared spaces.</li>
+              <li>Allow flexible seating or standing options, and respect clothing/texture preferences.</li>
+              <li>Create a designated calm/retreat space where overwhelm can be managed privately.</li>
+              <li>Maintain predictable routines and give advance notice of changes.</li>
+              <li>Ask the individual what specific sensory challenges they face — it varies greatly.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Marco et al. (2011) found that altered sensory processing is a core feature of autism and is linked to anxiety and meltdowns — reducing sensory load directly reduces these outcomes.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-s3" id="trigger-s3">
+            <span class="accordion-icon" aria-hidden="true">😤</span>
+            <span class="accordion-trigger-text">Understanding meltdowns, shutdowns, and emotional regulation</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-s3" role="region" aria-labelledby="trigger-s3">
+            <p class="advice-intro">Meltdowns and shutdowns are neurological responses to sensory or emotional overload — not behaviour choices or manipulation.</p>
+            <ul class="advice-list">
+              <li><strong>During a meltdown:</strong> stay calm, speak softly or not at all, reduce sensory input, give space.</li>
+              <li><strong>During a shutdown:</strong> do not force interaction — offer presence without demand, and check in gently later.</li>
+              <li>Never punish or shame after a meltdown; the person is already distressed and often embarrassed.</li>
+              <li>Identify triggers together during calm periods and build an agreed "early warning system".</li>
+              <li>Learn their individual signs of overload before the point of no return.</li>
+              <li>Teach and practise regulation strategies together — deep pressure, cold water on wrists, breathing techniques.</li>
+              <li>Recovery time is real and needed — do not rush a return to tasks.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Giarelli et al. (2021) found that emotional dysregulation is present in 50–70% of autistic individuals and is exacerbated by unaddressed environmental factors and unsupportive responses.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-s4" id="trigger-s4">
+            <span class="accordion-icon" aria-hidden="true">🏢</span>
+            <span class="accordion-trigger-text">Workplace and school accommodations that make a real difference</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-s4" role="region" aria-labelledby="trigger-s4">
+            <p class="advice-intro">Low-cost, high-impact adjustments can dramatically improve performance and wellbeing without requiring a formal diagnosis in many workplaces.</p>
+            <ul class="advice-list">
+              <li>Provide written agendas for meetings ahead of time.</li>
+              <li>Allow flexible start times or remote work where possible (executive function is highly variable).</li>
+              <li>Give extended time for tasks or exams without drawing attention to it publicly.</li>
+              <li>Use visual schedules, checklists, and calendars as standard tools.</li>
+              <li>Avoid open-plan spaces for focused work; offer quiet zones or pods.</li>
+              <li>Offer body-doubling options (working silently alongside someone) — research shows this improves ADHD focus.</li>
+              <li>Assign one named point-of-contact for navigating complex systems (HR, school admin).</li>
+              <li>Focus performance assessments on outcomes, not on neurotypical-style process adherence.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Austin & Pisano (Harvard Business Review, 2017) showed that companies employing neurodivergent workers with proper accommodations reported measurable gains in innovation and quality.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-s5" id="trigger-s5">
+            <span class="accordion-icon" aria-hidden="true">❤️</span>
+            <span class="accordion-trigger-text">Supporting mental health and avoiding burnout</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-s5" role="region" aria-labelledby="trigger-s5">
+            <p class="advice-intro">Autistic burnout is a recognised condition driven by prolonged masking and unsupportive environments — not inherent fragility.</p>
+            <ul class="advice-list">
+              <li>Recognise the signs of masking (performing neurotypicality) — exhaustion, withdrawal, increased stimming after social events.</li>
+              <li>Explicitly communicate that masking is not expected or required around you.</li>
+              <li>Ensure they have protected downtime with no social obligations.</li>
+              <li>Validate experiences without minimising: "That sounds really hard" beats "Everyone feels like that."</li>
+              <li>Encourage connection with other neurodivergent people — peer support has strong evidence of benefit.</li>
+              <li>Be aware that depression and anxiety co-occur with ADHD and autism at far higher rates than in the general population.</li>
+              <li>Support access to neurodiversity-affirming therapists (look for those who avoid ABA-based or normalising approaches).</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Raymaker et al. (2020) formally defined autistic burnout and found it was caused primarily by external life stressors and lack of support — not by autism itself.
+            </p>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-s6" id="trigger-s6">
+            <span class="accordion-icon" aria-hidden="true">🧒</span>
+            <span class="accordion-trigger-text">Parenting neurodiverse children: evidence-based approaches</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-s6" role="region" aria-labelledby="trigger-s6">
+            <p class="advice-intro">Connection-first parenting approaches consistently outperform compliance-focused methods for neurodiverse children's long-term wellbeing.</p>
+            <ul class="advice-list">
+              <li>Use the Pathological Demand Avoidance (PDA) lens if your child is highly demand-avoidant — traditional ABA and rewards/punishments often backfire.</li>
+              <li>Prioritise relationship over compliance: a child who trusts you will cooperate more over time.</li>
+              <li>Celebrate special interests genuinely — they support learning, identity, and emotional regulation.</li>
+              <li>Advocate loudly at school: request an Education Health and Care (EHC) plan or 504 plan and review it annually.</li>
+              <li>Model and teach interoception (identifying internal feelings) — this is often underdeveloped and leads to emotional dysregulation.</li>
+              <li>Avoid verbal praise overload ("good job!") — prefer specific, factual observations ("you waited your turn three times, that was hard").</li>
+              <li>Look after your own mental health; carer wellbeing directly affects the child's outcomes.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Iadarola et al. (2019) found parent-mediated interventions focused on responsiveness and acceptance significantly improve adaptive behaviour and reduce family stress.
+            </p>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-s7" id="trigger-s7">
+            <span class="accordion-icon" aria-hidden="true">🚫</span>
+            <span class="accordion-trigger-text">Common mistakes to avoid — and why they cause harm</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-s7" role="region" aria-labelledby="trigger-s7">
+            <p class="advice-intro">Good intentions with poor methods can cause lasting harm. Awareness helps everyone do better.</p>
+            <ul class="advice-list">
+              <li><strong>Forcing eye contact</strong> — causes pain and anxiety for many autistic people and has no social benefit for them.</li>
+              <li><strong>Saying "you don't look autistic"</strong> — invalidates their experience; autism is invisible by design in many people who mask heavily.</li>
+              <li><strong>Stopping stimming</strong> — stimming is a self-regulation tool; suppressing it increases anxiety and is linked to trauma.</li>
+              <li><strong>Praising masking</strong> — telling someone they are "doing so well" while they are masking reinforces harmful behaviour.</li>
+              <li><strong>Using functioning labels</strong> (high-/low-functioning) — oversimplifies and is discouraged by autistic self-advocacy groups.</li>
+              <li><strong>Overloading with therapy</strong> — multiple hours of structured therapy per week without downtime leads to burnout and trauma.</li>
+              <li><strong>Assuming they don't notice</strong> — neurodiverse people are often hyperaware of social dynamics; dismissiveness is always registered.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Kupferstein (2018) found that people who underwent ABA-type normalising therapies showed PTSD symptoms at significantly higher rates than those who did not.
+            </p>
+          </div>
+        </div>
+
+      </div><!-- /.accordion -->
+    </section>
+
+
+    <!-- =============================================================== -->
+    <!-- SECTION 2 — FOR NEURODIVERSE INDIVIDUALS                         -->
+    <!-- =============================================================== -->
+    <section class="category-section" data-category="neurodiverse" aria-labelledby="neurodiverse-heading">
+
+      <div class="category-header">
+        <div class="category-icon" aria-hidden="true">🌟</div>
+        <div class="category-title-block">
+          <h2 id="neurodiverse-heading">For Neurodiverse Individuals</h2>
+          <p>Strategies, tools, and self-knowledge grounded in the latest neurodiversity-affirming research — written for you.</p>
+        </div>
+      </div>
+
+      <div class="accordion" role="list">
+
+        <!-- 1 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-n1" id="trigger-n1">
+            <span class="accordion-icon" aria-hidden="true">🔋</span>
+            <span class="accordion-trigger-text">Managing energy: understanding your limits and recharging</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-n1" role="region" aria-labelledby="trigger-n1">
+            <p class="advice-intro">The neurodiversity energy model ("spoon theory" or "battery model") recognises that cognitive and social tasks cost you more energy than they cost neurotypical people.</p>
+            <ul class="advice-list">
+              <li>Track your energy with a simple daily log — notice what drains and what restores you.</li>
+              <li>Protect non-negotiable recharge time after high-demand events (no guilt required).</li>
+              <li>Build in transition time between activities; rapid context-switching is especially costly.</li>
+              <li>Identify your "easy wins" — tasks or contexts that reliably feel energising — and schedule these when depleted.</li>
+              <li>Say no strategically: declining a social obligation early costs less energy than masking through it.</li>
+              <li>Use stimming freely in private spaces — research confirms it reduces anxiety and improves focus.</li>
+              <li>Batch difficult tasks with your peak cognitive window (know whether you are a morning or evening person — ADHD often involves delayed sleep phase).</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Petrolini et al. (2023) confirmed that cognitive and emotional fatigue in autistic adults is neurologically distinct from tiredness and requires rest that neurotypical recovery strategies do not fully address.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-n2" id="trigger-n2">
+            <span class="accordion-icon" aria-hidden="true">🎯</span>
+            <span class="accordion-trigger-text">ADHD: practical strategies grounded in brain science</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-n2" role="region" aria-labelledby="trigger-n2">
+            <p class="advice-intro">ADHD is a difference in dopamine and noradrenaline regulation, not a willpower deficit. Strategies that work with your brain's reward system are far more effective than willpower-based approaches.</p>
+            <ul class="advice-list">
+              <li>Use <strong>body doubling</strong> — working alongside another person (even on video) increases focus for many with ADHD.</li>
+              <li>Externalise your working memory: write everything down immediately, use visual cues, leave objects in sight as reminders.</li>
+              <li>Break tasks into the smallest possible units and start with just two minutes.</li>
+              <li>Use timers and the Pomodoro technique (25 min on, 5 min off) to make time concrete and visible.</li>
+              <li>Exercise before demanding cognitive tasks — it temporarily raises dopamine and noradrenaline levels.</li>
+              <li>Pair boring tasks with something enjoyable (background music, podcast, walking).</li>
+              <li>Acknowledge hyperfocus as a superpower and a risk — set external alarms to transition out of it.</li>
+              <li>Consider medication evaluation — stimulant medications have the strongest evidence base of any psychiatric medication.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Barkley (2015) characterises ADHD as primarily a deficit in executive function and self-regulation, not attention — reframing this changes what support is effective.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-n3" id="trigger-n3">
+            <span class="accordion-icon" aria-hidden="true">🌈</span>
+            <span class="accordion-trigger-text">Autism: self-acceptance, masking, and living authentically</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-n3" role="region" aria-labelledby="trigger-n3">
+            <p class="advice-intro">Masking (camouflaging autistic traits to appear neurotypical) is linked to exhaustion, depression, anxiety, and a delayed sense of identity. Reducing masking is a key goal of autistic wellbeing.</p>
+            <ul class="advice-list">
+              <li>Notice when you are masking — facial expressions "performed", suppressed stimming, scripted responses — and ask yourself if it is truly necessary.</li>
+              <li>Find at least one safe space or person where you can be unmasked, even briefly.</li>
+              <li>Give yourself permission to stim in public — it is a human neurological need, not a sign of disorder.</li>
+              <li>Seek out autistic community (online forums, local groups) — peer connection is protective against depression.</li>
+              <li>Recognise that late diagnosis is common, especially in women and non-binary people (historically under-diagnosed). Your experiences are valid regardless of formal diagnosis.</li>
+              <li>Process past experiences with a neurodiversity-affirming therapist — many autistic adults carry significant grief around late diagnosis.</li>
+              <li>Reframe your traits as a different operating system, not a broken one.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Cage & Troxell-Whitman (2019) found that autistic people who masked more had significantly higher rates of anxiety, depression, and suicidal ideation. Reduced masking correlates with improved wellbeing.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-n4" id="trigger-n4">
+            <span class="accordion-icon" aria-hidden="true">📚</span>
+            <span class="accordion-trigger-text">Dyslexia and learning differences: tools and strategies</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-n4" role="region" aria-labelledby="trigger-n4">
+            <p class="advice-intro">Dyslexia, dyscalculia, dyspraxia, and related differences reflect alternative cognitive profiles — often including remarkable strengths in spatial reasoning, creative thinking, and holistic processing.</p>
+            <ul class="advice-list">
+              <li>Use text-to-speech tools (Natural Reader, built-in OS readers) to access written material without decoding effort.</li>
+              <li>Use speech-to-text for writing tasks — removes the transcription bottleneck so ideas can flow.</li>
+              <li>Try coloured overlays or background colours when reading (some people find cream or pale yellow reduces visual stress).</li>
+              <li>Use mind maps and visual diagrams instead of linear note-taking.</li>
+              <li>For maths: use manipulatives, calculators, and visual representations freely — arithmetic fluency is not the same as mathematical ability.</li>
+              <li>Break reading tasks into smaller chunks and use a finger or ruler to track lines.</li>
+              <li>Leverage your strengths: dyslexic thinkers are statistically over-represented in entrepreneurship, art, and engineering.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Eide & Eide (2011) documented the "dyslexic advantage" — enhanced big-picture, narrative, and 3D thinking — as a consistent finding in cognitive studies of dyslexic individuals.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-n5" id="trigger-n5">
+            <span class="accordion-icon" aria-hidden="true">🧘</span>
+            <span class="accordion-trigger-text">Mental health: managing anxiety, depression, and burnout</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-n5" role="region" aria-labelledby="trigger-n5">
+            <p class="advice-intro">Anxiety and depression affect around 50% of autistic adults and 40% of those with ADHD — far above population rates. These are largely environmentally driven and highly treatable.</p>
+            <ul class="advice-list">
+              <li>Distinguish between sensory-driven anxiety and generalised anxiety — they require different responses.</li>
+              <li>Recognise autistic burnout early: persistent exhaustion, loss of skills, emotional flatness after sustained effort.</li>
+              <li>Prioritise sleep rigorously — sleep disruption exacerbates every other symptom dramatically.</li>
+              <li>Use structured routines as an anxiety-management tool, not just for productivity.</li>
+              <li>Practice interoceptive awareness — body scanning, noticing hunger, temperature, tension — to build emotional awareness.</li>
+              <li>Seek neurodiversity-affirming therapy (ACT and CBT adapted for autism have the strongest evidence base).</li>
+              <li>Connect with others who understand: online communities (Autistic Self Advocacy Network, ADHD subreddits) offer validation that is often unavailable in daily life.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Lai et al. (2019) found that anxiety in autistic people is largely driven by living in environments built for neurotypical people — with social support, rates can be significantly reduced.
+            </p>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-n6" id="trigger-n6">
+            <span class="accordion-icon" aria-hidden="true">💼</span>
+            <span class="accordion-trigger-text">Navigating work and career with a neurodiverse brain</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-n6" role="region" aria-labelledby="trigger-n6">
+            <p class="advice-intro">Many neurodiverse people thrive professionally when roles align with their cognitive strengths. Disclosure, self-advocacy, and the right environment are key.</p>
+            <ul class="advice-list">
+              <li>Identify roles that leverage your strengths: pattern recognition, hyperfocus, creative thinking, systemising, detail orientation.</li>
+              <li>Consider disclosure carefully — many workplaces have legal obligations to provide reasonable adjustments; knowing your rights empowers you.</li>
+              <li>Request accommodations in writing and frame them in terms of what helps you produce your best work.</li>
+              <li>Find an ally or mentor at work who understands your working style.</li>
+              <li>Know your "shutdown" conditions at work and have an agreed exit plan with a trusted colleague.</li>
+              <li>Build structure into your day even if no one else does — calendar blocking, morning routines, and end-of-day reviews all reduce decision fatigue.</li>
+              <li>Explore neurodiversity-focused employment programmes (e.g. SAP Autism at Work, Microsoft Neurodiversity Hiring Programme).</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Scott et al. (2019) found that neurodiverse employees outperformed neurotypical counterparts on specific data and quality assurance tasks when given appropriate accommodations and management styles.
+            </p>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-n7" id="trigger-n7">
+            <span class="accordion-icon" aria-hidden="true">🤗</span>
+            <span class="accordion-trigger-text">Relationships, friendships, and social navigation</span>
+            <svg class="accordion-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="accordion-panel" id="panel-n7" role="region" aria-labelledby="trigger-n7">
+            <p class="advice-intro">Many neurodiverse people have rich, deep friendships and relationships — but social energy is finite and social rules can be genuinely confusing. Being explicit helps.</p>
+            <ul class="advice-list">
+              <li>Prioritise quality over quantity in friendships — a few deep connections are far better for wellbeing than many shallow ones.</li>
+              <li>Be honest about your needs: "I need 24 hours' notice to change plans" is a reasonable request, not a character flaw.</li>
+              <li>Ask for explicit communication from others — "Can you tell me directly when something bothers you?"</li>
+              <li>Recognise the signs of unhealthy relationships: those who exploit your rule-following nature, high tolerance for discomfort, or difficulty reading manipulation.</li>
+              <li>Use scripts for common social situations if they reduce anxiety — this is a strategy, not a failure to be authentic.</li>
+              <li>Understand that post-social exhaustion is neurological, not introversion — communicate this to partners and friends.</li>
+              <li>In romantic relationships, explicit "operating manual" conversations about needs, communication styles, and sensory preferences significantly reduce conflict.</li>
+            </ul>
+            <p class="research-note">
+              📚 <strong>Research:</strong> Morrison et al. (2020) found that autistic-to-autistic relationships reported significantly higher satisfaction and lower conflict than autistic-to-neurotypical relationships — shared communication styles matter.
+            </p>
+          </div>
+        </div>
+
+      </div><!-- /.accordion -->
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer role="contentinfo">
+    <p class="footer-title">🧠 NeurodiverseAdvices</p>
+    <p>
+      Built with ❤️ to celebrate and support neurodivergent minds everywhere.
+    </p>
+    <p>
+      Resources:
+      <a href="https://autisticadvocacy.org" target="_blank" rel="noopener">ASAN</a> ·
+      <a href="https://www.additudemag.com" target="_blank" rel="noopener">ADDitude Magazine</a> ·
+      <a href="https://www.bdadyslexia.org.uk" target="_blank" rel="noopener">BDA</a> ·
+      <a href="https://neurodiversity.com" target="_blank" rel="noopener">Neurodiversity.com</a>
+    </p>
+    <p class="disclaimer">
+      This site provides general educational information. It is not a substitute for professional medical, psychological, or educational advice. Always consult a qualified professional for personal guidance.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
